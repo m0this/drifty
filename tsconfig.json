@@ -6,9 +6,7 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": false,
-    "outDir": "./build"
+    "outDir": "./build",
+    "rootDir": "./src"
   },
-  "include": [
-    "src/*.ts"
-  ]
-}
+}git
