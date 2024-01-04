@@ -10,3 +10,4 @@ Drive the car with Arrow Keys.
 
 Reset with 'R'
 
+Handbrake with space bar
