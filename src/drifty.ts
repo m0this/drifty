@@ -75,7 +75,7 @@ function calculateAndDisplayFPS(timestamp: number) {
 window.addEventListener('keydown', handleKeydown);
 window.addEventListener('keyup', handleKeyup);
 window.addEventListener('resize', (event) => {
-    handleWindowResize(event, canvas); // Hier canvas als Argument übergeben
+    handleWindowResize(canvas);
 });
 
 function startGameLoop(): void {

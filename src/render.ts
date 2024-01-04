@@ -2,7 +2,7 @@ import {Car} from "./car";
 
 const canvas: HTMLCanvasElement = document.getElementById("canvas") as HTMLCanvasElement;
 const ctx: CanvasRenderingContext2D = canvas.getContext("2d")!;
-const carImage: HTMLImageElement = document.getElementById('carImage') as HTMLImageElement; // Reference to your SVG image
+const carImage: HTMLImageElement = document.getElementById('carImage') as HTMLImageElement;
 
 const tireWidth: number = 6;
 const tireHeight: number = 13;
